@@ -1,4 +1,4 @@
-import 'package:basic_flutter/widget/flexibel.dart';
+import 'package:basic_flutter/widget/slider.dart';
 import 'package:flutter/material.dart';
 
 void main(List<String> args) {
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MyFlexibel(),
+      home: MySlider(),
     );
   }
 }
